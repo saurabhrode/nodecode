@@ -12,7 +12,7 @@ const app = express();
 
 // Define the route for the root path ("/")
 app.get('/', (req, res) => {
-    const sentence = 'Welcome to the AWS CICD world';
+    const sentence = 'Welcome to  CICD world';
 
     // Send the sentence as the response
     res.json({ sentence });
